@@ -9,4 +9,26 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  text-align: center;
+  background-color: #ab93c9;
+  color: #ffbea3;
+}
+
+.card-shuffle {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+#card-suit,
+#card-rank {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.shuffle-button,
+.shuffle {
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  background-color: #ffbea3;
+  border-radius: #ffbea3;
 }

@@ -63,3 +63,4 @@ const shuffle = () => {
 // console.log(shuffle)
 
 document.querySelector('.shuffle-button').addEventListener('click', getDeck)
+document.querySelector('.shuffle').addEventListener('click', shuffle)
