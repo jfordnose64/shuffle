@@ -10,6 +10,10 @@ class Card {
   }
 }
 
+// if (cardSuit === ♠) {
+//   cardSuit.style.add('.red')
+// }
+
 const deck = []
 const Card1 = new Card('Ace', 'Spades')
 
@@ -31,7 +35,7 @@ const rank = [
   'Queen',
   'King'
 ]
-const suits = ['Spades', 'Hearts', 'Clubs', 'Diamonds']
+const suits = ['♠', '♥', '♣', '♦']
 
 const getDeck = () => {
   for (let s = 0; s < suits.length; s++) {

@@ -32,3 +32,25 @@ body {
   background-color: #ffbea3;
   border-radius: #ffbea3;
 }
+
+.card {
+  border: 1px solid white;
+  background-color: white;
+  /* align-content: center;
+  align-items: center; */
+  margin-left: 52rem;
+  margin-right: 52rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+}
+
+#card-suit {
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.red {
+  color: red;
+}
